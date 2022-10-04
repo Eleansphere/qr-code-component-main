@@ -29,7 +29,8 @@ main{
     max-width: 375px;
 }
 main img{
-    width: 100%;
+    display: block;
+    max-width: 100%;
     border-radius: 0.8rem;  
 }
 .wrapper-text{
@@ -45,10 +46,10 @@ main img{
 /*STYLING*/
 h1{
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.6rem;
 }
 p{
-    font-size: 15px;
+    font-size: 1rem;
     color: var(--grayishBlue);
 }
 /*RESPONSIVE*/
